@@ -1,0 +1,28 @@
+{
+    "AS_Form_gd8ed4003a7b44da8dfafe51132c2510": {
+        "id": "AS_Form_gd8ed4003a7b44da8dfafe51132c2510",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e158d89d96004277a5d5494ae3fef4c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j83dfa60e6a34e6da0aba896dfe7e569",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearStorage",
+            "display": "clearStorage",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

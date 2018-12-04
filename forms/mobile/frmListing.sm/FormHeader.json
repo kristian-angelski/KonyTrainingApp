@@ -1,0 +1,82 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sb524da2277643e2883fec406b6a7dce",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "isVisible1": true,
+        "isVisible2": false,
+        "isVisible3": false,
+        "src": "calbtn_1.png",
+        "text": "Listing",
+        "width1": {
+            "Default": {
+                "type": "string",
+                "value": "25%"
+            }
+        },
+        "width2": {
+            "Default": {
+                "type": "string",
+                "value": "50%"
+            }
+        },
+        "width3": {
+            "Default": {
+                "type": "string",
+                "value": "25%"
+            }
+        }
+    },
+    "id": "FormHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d5bc1c9d20534cdea10f644308c06058",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmListing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "c881c9c5d6af45e8bb583075cb6d3be5",
+    "wType": "UserWidgetInstance"
+}

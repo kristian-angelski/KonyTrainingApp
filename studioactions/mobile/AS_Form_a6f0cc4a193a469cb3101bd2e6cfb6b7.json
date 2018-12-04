@@ -1,0 +1,28 @@
+{
+    "AS_Form_a6f0cc4a193a469cb3101bd2e6cfb6b7": {
+        "id": "AS_Form_a6f0cc4a193a469cb3101bd2e6cfb6b7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddNewItem",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ba5dade31f484e769342863964aefc23"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h25cef5df4e649b9ab39762735c33895",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearFields",
+            "display": "clearFields",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

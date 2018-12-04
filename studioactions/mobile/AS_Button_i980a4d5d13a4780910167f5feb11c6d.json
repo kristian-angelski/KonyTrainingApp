@@ -1,0 +1,29 @@
+{
+    "AS_Button_i980a4d5d13a4780910167f5feb11c6d": {
+        "id": "AS_Button_i980a4d5d13a4780910167f5feb11c6d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e158d89d96004277a5d5494ae3fef4c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___e7343a00bbb1482e98b177e225d3b0db",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCreateAccount",
+            "formKUID": "d7cb3fcad3d6473590a8d79e4c711a6e",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

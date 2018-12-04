@@ -1,0 +1,18 @@
+{
+    "AS_Form_d7f47548905e48a581f8c1089346e8dd": {
+        "id": "AS_Form_d7f47548905e48a581f8c1089346e8dd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddNewItem",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ba5dade31f484e769342863964aefc23"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

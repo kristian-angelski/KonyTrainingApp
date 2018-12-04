@@ -1,0 +1,140 @@
+{
+    "classname": "ExpandableRow",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a5611fb5e10e4e0a9e33d20f1ea7623f",
+                    "paramList": [
+                        {
+                            "name": "base64"
+                        }
+                    ],
+                    "propertyKey": "setImage",
+                    "pw": {
+                        "displayName": "setImage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ff866b7d82ee4859b3451f2e0a3b5349",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g58623ce450647fd82bfab3bb1a0ba17",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "itemName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title",
+                        "srcWidget": "lblItem",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c572bfed89f14ce4955caf7c74653371"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fd4dce82626c47ce9a7c50a3a6c77dce",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 5,
+                    "propertyKey": "imgSrc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "src",
+                        "srcWidget": "img",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "f663ba576c074824b9705a42f6c80535"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ef9fddf6930442b6a09f172f5f47c81b",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 6,
+                    "propertyKey": "isVisible1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Visible",
+                        "srcWidget": "flxItem",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c89ad5db9ab04e2092f749712b7f0008"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ed3f5ec6f04d49a8849346101e0b85c5",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "itemDesc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "srcWidget": "txtDescription",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "aef54875999c421e8aa95dce7d0ba34f"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "f8816201d7af40a7bdd50ae60d2f85a6",
+                    "propertyKey": "img",
+                    "srcWgtKUID": "f663ba576c074824b9705a42f6c80535"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.softserveinc",
+    "version": "1.0.0"
+}

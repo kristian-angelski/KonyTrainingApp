@@ -1,0 +1,28 @@
+{
+    "AS_Form_eb7e36f74f244684a9cac67fdc91b015": {
+        "id": "AS_Form_eb7e36f74f244684a9cac67fdc91b015",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmListing",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e786470c87b2464f9b3d485b8a3ffc99"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g04ec6b812af41d0b81bb385509b4878",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addNewItems",
+            "display": "addNewItems",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

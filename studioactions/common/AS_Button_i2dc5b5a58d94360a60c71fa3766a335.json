@@ -1,0 +1,27 @@
+{
+    "AS_Button_i2dc5b5a58d94360a60c71fa3766a335": {
+        "id": "AS_Button_i2dc5b5a58d94360a60c71fa3766a335",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu90c2ce6dcb64444a38d1d1990a4a772",
+            "type": "userwidgets",
+            "KUID": "u90c2ce6dcb64444a38d1d1990a4a772"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b3194b6fb4ca48eabfa8c6656d599a3a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toggle",
+            "display": "toggle",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Form_dadd166c179b48c4a1a95cbe3763120c": {
+        "id": "AS_Form_dadd166c179b48c4a1a95cbe3763120c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddNewItem",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ba5dade31f484e769342863964aefc23"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h8aa8b70f58e4185ad05c13509b6b35a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "editItem",
+            "display": "editItem",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

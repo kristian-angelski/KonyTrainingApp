@@ -1,0 +1,38 @@
+{
+    "AS_Form_a771337a6f4c4b17b56cb4875dc24257": {
+        "id": "AS_Form_a771337a6f4c4b17b56cb4875dc24257",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d7cb3fcad3d6473590a8d79e4c711a6e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___bcf0e6c1472b43bf807070ef6e290f3c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "changeDateFormat",
+            "display": "changeDateFormat",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION___e9529d0f06f54a6299c6c928c95afa74",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "disableFutureDates",
+            "display": "disableFutureDates",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

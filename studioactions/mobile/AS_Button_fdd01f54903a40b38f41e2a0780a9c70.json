@@ -1,0 +1,51 @@
+{
+    "AS_Button_fdd01f54903a40b38f41e2a0780a9c70": {
+        "id": "AS_Button_fdd01f54903a40b38f41e2a0780a9c70",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e158d89d96004277a5d5494ae3fef4c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "IF_CONDITION__a8bf86d49e25482dae16a8b964823aff",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "this.view.txtEmail.text",
+                "rightValueType": "value",
+                "operator": "===",
+                "leftItemKUID": "e158d89d96004277a5d5494ae3fef4c6",
+                "leftWidgetKUID": "h3371a6b1457478fa7b47becdbfca8b4",
+                "rightValue": "''"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____ea6391917b4c48ceaf6568f3fa7dede1",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "txtEmail",
+            "propertyName": "skin",
+            "propertyValue": "skinInvalid",
+            "itemKUID": "e158d89d96004277a5d5494ae3fef4c6",
+            "widgetKUID": "h3371a6b1457478fa7b47becdbfca8b4",
+            "skinKUID": "s815be5165ac4db8b87dca829bdb0b50",
+            "isSkinProperty": true,
+            "wType": "TextField",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__a8bf86d49e25482dae16a8b964823aff",
+            "callbackType": null,
+            "widgetPath": "this.view.txtEmail"
+        }]
+    }
+}

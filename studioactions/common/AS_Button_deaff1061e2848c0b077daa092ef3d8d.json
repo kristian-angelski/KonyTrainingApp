@@ -1,0 +1,27 @@
+{
+    "AS_Button_deaff1061e2848c0b077daa092ef3d8d": {
+        "id": "AS_Button_deaff1061e2848c0b077daa092ef3d8d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwud9150d76af64b5ab5aca3811967c2df",
+            "type": "userwidgets",
+            "KUID": "ud9150d76af64b5ab5aca3811967c2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ece6c76d17c942108325b7bac8bc0e2c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "logOut",
+            "display": "logOut",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
